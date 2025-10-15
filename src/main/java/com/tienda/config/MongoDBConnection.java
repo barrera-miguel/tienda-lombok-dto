@@ -8,7 +8,7 @@ public class MongoDBConnection {
     private static MongoClient mongoClient;
     private static MongoDatabase database;
 
-    // Configuración de conexión - ajustar según tu entorno
+    // Configuración de conexión
     private static final String CONNECTION_STRING = "mongodb://localhost:27017";
     private static final String DATABASE_NAME = "tienda_db";
 
